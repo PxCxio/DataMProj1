@@ -1,0 +1,40 @@
+1) Team members and assignment of responsibilities. Each teammate will lead one of the following responsibilities:
+a. Frequent Itemset Generation: Candidate generation & pruning
+Random: Me
+b. Frequent Itemset Generation: Support counting & candidate elimination
+Random: Partner
+c. Rule generation
+BOTH
+
+2) Write a paragraph for each step of the Apriori algorithm explaining how you will implement it.
+
+Apriori, to priorly diminish number of candidates by following the principles that if an itemset if frequent then all of its subsets must also be frequent and constrastingly if an itemset is infrequent then all supersets of this must be infrequent. The first step is to generate our F₁ Frequent 1-itemsets; While Fₖ !Empty 1) Candidate generation Lₖ₊₁ from Fₖ and 2) Candidate Pruning: Prune candidate items that are infrequent simply due to their subsets w/out computing support.
+3) Support Counting for each Lₖ₊₁, 4) Candidate Elimination: Eliminate candidates in Lₖ₊₁ that are infrequent, leaving only the frequent (Fₖ₊₁)
+
+
+3) Fill in the following table:
+
+|--------------------------------------+-------|
+| Number of transactions               |       |
+|--------------------------------------+-------|
+| Number of items                      | 55994 | #Number of line in PlyLst4000.txt
+|--------------------------------------+-------|
+| Width of longer transaction          | 2     | #Elements <PlyLstID::SongID>
+|--------------------------------------+-------| Always maintains that
+| Width of shorter transaction         | 2     |
+|--------------------------------------+-------|
+| Number of frequent 1-itemsets        |       |
+| (Min support count threshold = 400)  |       |
+|--------------------------------------+-------|
+| Highest support count of a 1-itemset |       |
+|--------------------------------------+-------|
+
+4) Plot item support counts in increasing order (for support count > 50). Make sure that the plot is
+labeled properly. X-axis: “items”, Y-axis: “support count”, title: “Support counts in increasing order”.
+What can you notice?
+
+
+For Report 1, you submit a PDF file with all the answers to the questions. As soon as you submit it, you
+can ask us to check if you are on the right track and help you make any corrections before the submission
+deadline.
+
